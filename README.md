@@ -25,8 +25,8 @@
 ## 使用指南
 步驟 1：將 Excel 轉換為 JSON
 使用 xlsx2json.ipynb notebook 來預處理你的數據。
--輸入：包含公司簡介信息的 Excel 文件。
--輸出：用於訓練的 JSON 文件。
+ - 輸入：包含公司簡介信息的 Excel 文件。
+ - 輸出：用於訓練的 JSON 文件。
 
 如何運行：
 1.打開 xlsx2json.ipynb 在 Google Colab 上：
