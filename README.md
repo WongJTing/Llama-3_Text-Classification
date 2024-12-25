@@ -23,7 +23,7 @@
 3. 必要的 Python 知識：了解基本的 Python 編程和 Jupyter Notebook 操作。
 
 ## 使用指南
-步驟 1：將 Excel 轉換為 JSON
+###步驟 1：將 Excel 轉換為 JSON
 使用 xlsx2json.ipynb notebook 來預處理你的數據。
  - 輸入：包含公司簡介信息的 Excel 文件。
  - 輸出：用於訓練的 JSON 文件。
@@ -34,7 +34,7 @@
 
 ---
 
-步驟 2：訓練模型
+###步驟 2：訓練模型
 使用 ftmodel.ipynb notebook 來微調 Llama-3 模型。
  - 輸入：步驟 1 生成的 JSON 文件。
  - 輸出：儲存在 Hugging Face 上的訓練模型。
@@ -46,7 +46,7 @@
 
 ---
 
-步驟 3：使用模型
+###步驟 3：使用模型
 使用 model_use.ipynb notebook 來加載訓練好的模型並進行預測。
  - 輸入：公司簡介文本。
  - 輸出：預測的產品分類。
