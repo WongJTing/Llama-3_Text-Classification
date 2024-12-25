@@ -55,8 +55,3 @@
 1. 打開 model_use.ipynb 在 Google Colab 上：
 2. 在指定的單元格中輸入公司簡介文本。
 3. 運行 notebook 以查看分類結果。
-
-# 將內容寫入 README.md
-with open("README.md", "w") as file:
-    file.write(readme_content)
-
