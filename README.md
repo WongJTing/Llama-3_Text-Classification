@@ -25,33 +25,36 @@
 ## 使用指南
 步驟 1：將 Excel 轉換為 JSON
 使用 xlsx2json.ipynb notebook 來預處理你的數據。
+-輸入：包含公司簡介信息的 Excel 文件。
+-輸出：用於訓練的 JSON 文件。
 
-輸入：包含公司簡介信息的 Excel 文件。
-輸出：用於訓練的 JSON 文件。
 如何運行：
+1.打開 xlsx2json.ipynb 在 Google Colab 上：
+2.按照 notebook 中的指示上傳你的 Excel 文件並生成 JSON 文件。
 
-打開 xlsx2json.ipynb 在 Google Colab 上：
-按照 notebook 中的指示上傳你的 Excel 文件並生成 JSON 文件。
+---
+
 步驟 2：訓練模型
 使用 ftmodel.ipynb notebook 來微調 Llama-3 模型。
+-輸入：步驟 1 生成的 JSON 文件。
+-輸出：儲存在 Hugging Face 上的訓練模型。
 
-輸入：步驟 1 生成的 JSON 文件。
-輸出：儲存在 Hugging Face 上的訓練模型。
 如何運行：
+1.打開 ftmodel.ipynb 在 Google Colab 上：
+2.更新配置（例如訓練參數、數據集路徑和 Hugging Face 認證信息）。
+3.運行 notebook 以訓練模型並將其保存到 Hugging Face。
 
-打開 ftmodel.ipynb 在 Google Colab 上：
-更新配置（例如訓練參數、數據集路徑和 Hugging Face 認證信息）。
-運行 notebook 以訓練模型並將其保存到 Hugging Face。
+---
+
 步驟 3：使用模型
 使用 model_use.ipynb notebook 來加載訓練好的模型並進行預測。
+-輸入：公司簡介文本。
+-輸出：預測的產品分類。
 
-輸入：公司簡介文本。
-輸出：預測的產品分類。
 如何運行：
-
-打開 model_use.ipynb 在 Google Colab 上：
-在指定的單元格中輸入公司簡介文本。
-運行 notebook 以查看分類結果。
+1.打開 model_use.ipynb 在 Google Colab 上：
+2.在指定的單元格中輸入公司簡介文本。
+3.運行 notebook 以查看分類結果。
 
 # 將內容寫入 README.md
 with open("README.md", "w") as file:
