@@ -1,7 +1,6 @@
 # Llama-3_Text-Classification
 A machine learning project using Llama-3 to classify companies based on their product-focused profiles.
-# 將 README.md 內容寫入文件
-readme_content = """
+
 # Llama-3 基於產品分類的公司簡介分析
 
 本專案展示了如何使用 Llama-3 模型根據公司的主要產品重點對公司簡介進行分類。整個流程包括數據轉換、模型訓練和模型使用三個主要步驟。此外，還提供了一個詳細的 PPT 教學，指導如何建立 Hugging Face 並使用訓練好的模型。
@@ -16,8 +15,7 @@ readme_content = """
   - [步驟 3：使用模型](#步驟-3使用模型)
 - [附加資源](#附加資源)
 - [範例工作流程](#範例工作流程)
-- [聯繫方式](#聯繫方式)
-- [許可證](#許可證)
+
 
 ## 專案介紹
 ...
