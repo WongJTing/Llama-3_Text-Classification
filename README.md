@@ -55,3 +55,17 @@
 1. 打開 model_use.ipynb 在 Google Colab 上：
 2. 在指定的單元格中輸入公司簡介文本。
 3. 運行 notebook 以查看分類結果。
+
+## 附加資源
+為了更詳細地了解如何設置 Hugging Face 以及如何使用模型，請參考我們準備的 PPT 教學：
+PPT 涵蓋內容包括：
+- 設置 Hugging Face 帳戶和倉庫。
+- 每個 notebook 的詳細工作流程。
+- 自訂和改進模型的技巧。
+
+## 範例工作流程
+以下是一個完整流程的範例：
+1. 準備包含公司數據的 Excel 文件
+2. 使用 xlsx2json.ipynb 將其轉換為 data.json。
+3. 在 ftmodel.ipynb 中使用 data.json 訓練模型。
+4. 使用 model_use.ipynb 對新的公司簡介進行分類。
