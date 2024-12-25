@@ -29,8 +29,8 @@
  - 輸出：用於訓練的 JSON 文件。
 
 如何運行：
-1.打開 xlsx2json.ipynb 在 Google Colab 上：
-2.按照 notebook 中的指示上傳你的 Excel 文件並生成 JSON 文件。
+  1.打開 xlsx2json.ipynb 在 Google Colab 上：
+  2.按照 notebook 中的指示上傳你的 Excel 文件並生成 JSON 文件。
 
 ---
 
